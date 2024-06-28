@@ -1,0 +1,3 @@
+* Critério de Aceitação: Quando o usuário digita um termo na barra de pesquisa, e clica no icone pesquisar (lupinha), os resultados devem estar de acordo com o termo pesquisado.
+
+

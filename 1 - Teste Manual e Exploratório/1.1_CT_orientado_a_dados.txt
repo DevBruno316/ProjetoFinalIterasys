@@ -1,0 +1,36 @@
+Caso de Teste: Login Do Cliente
+
+** PRÉ-REQUISITOS **
+- O usuário deve estar cadastrado no sistema
+
+Informações cadastradas:
+
+Nome:Julio Iago Enrico Freitas
+CPF:675.711.928-54
+E-mail: julio.iago.freitas@dpauladecor.com.br
+Senha:pz6LwRr4Y3
+CEP: 69304-031
+Numero: 564
+Telefone Celular: (95) 98590-5105
+
+** Passos **
+1.Entrar no site
+2.Clicar no icone perfil
+3.Clicar em login/cadastrar
+4.Preencher os campos E-mail ou CPF e senha com as Informações abaixo:
+
+Teste Case                  |E-mail ou CPF                          |Senha      |Resposta
+E-mail e senha válidos      |julio.iago.freitas@dpauladecor.com.br  |pz6LwRr4Y3 |Login com sucesso   
+CPF e senha válidos         |675.711.928-54                         |pz6LwRr4Y3 |Login com sucesso 
+Email invalido/senha valida |mariojoseribeiro@dpauladecor.com.us    |pz6LwRr4Y3 |ATENÇÃO - e-mail ou senha inválidos!
+Email valido/senha invalida |julio.iago.freitas@dpauladecor.com.br  |iterasys   |ATENÇÃO - e-mail ou senha inválidos!
+Email valido/senha vazia    |julio.iago.freitas@dpauladecor.com.br  |           |ATENÇÃO - e-mail ou senha inválidos!
+Email vazio/ senha valida   |                                       |pz6LwRr4Y3 |ATENÇÃO - Verifique o E-mail ou CPF digitado!
+CPF invalido/senha invalida |676.911.128-32                         |mojang     |ATENÇÃO - Verifique o E-mail ou CPF digitado!
+CPF valido/senha invalida   |675.711.928-54                         |minecraft  |ATENÇÃO - e-mail ou senha inválidos!
+CPF valido/senha vazia      |675.711.928-54                         |           |ATENÇÃO - e-mail ou senha inválidos!
+CPF vazio/senha valida      |                                       |pz6LwRr4Y3 |ATENÇÃO - Verifique o E-mail ou CPF digitado!
+CPF|email vazio/senha vazia |                                       |           |ATENÇÃO - Verifique o E-mail ou CPF digitado!
+
+5. Clicar em entrar
+6. Checar o retorno de cada ação e dado preenchido
