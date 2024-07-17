@@ -2,13 +2,14 @@
 Library    SeleniumLibrary
 
 *** Variables ***
-${title}    div#divLogo h1
+
+${search-bar-home}    id=txtDsKeyWord
+${search-button-home}    id=btnSearch
 
 *** Keywords ***
-Checar Titulo
-    Element Should Be Visible    ${title}
 
-Pesquisar Produto
+
+Pesquisar Produto e clicar em pesquisar
     [Arguments]    ${search_name}
-    Input Text    id=txtDsKeyWord    ${search_name}
-    Click Element    id=btnSearch
+    Input Text    ${search-bar-home}    ${search_name}
+    Click Element    ${search-button-home}
