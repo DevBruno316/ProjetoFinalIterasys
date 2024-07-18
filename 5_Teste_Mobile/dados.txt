@@ -1,0 +1,2 @@
+AppPackage = br.com.giulianaflores.android
+AppActivity = br.com.giulianaflores.android.MainActivity
