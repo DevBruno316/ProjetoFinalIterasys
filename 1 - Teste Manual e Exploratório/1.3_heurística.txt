@@ -1,0 +1,25 @@
+1.Cadastro e login
+    * Informações úteis
+    * Armazenamento de informações importantes para o uso do site
+    * Logout
+    * Alteração de dados
+2.Pesquisa de produtos
+    * Resultados de acordo com a pesquisa
+    * Não deixar o usuário sem resposta ou sugestões, mesmo que o produto não exista
+3.API de entrega
+    * Veracidade dos dados do endereço a partir do CEP
+4.Responsividade do site para diferentes dispositivos
+    * Televisão (menor probabilidade)
+    * Tablet
+    * Celular
+    * Computador 
+    * Cada um em diferentes tamanhos e formatos
+5.Adicionar ao carrinho
+    * Checar se o nome, valor e foto continuam os mesmos
+    * Checar se a quantidade está correta
+    * Testar cupons de desconto
+6.Selecionar produtos recomendados da página home
+    * Devem ser respectivos com a imagem doslide
+7.Acessibilidade
+    * Informações concisas e claras, para todos os públicos usarem e aprenderem a usar de forma correta e segura
+    * Funções intuitivas, como suporte, login, lista de desejos

@@ -1,3 +1,21 @@
-* Critério de Aceitação: Quando o usuário digita um termo na barra de pesquisa, e clica no icone pesquisar (lupinha), os resultados devem estar de acordo com o termo pesquisado.
+* Critério de Aceitação: Quando escrevo na barra de pesquisa o nome do produto, os resultados devem ser referentes ao produto pesquisado.
+
+Exemplo 1:
+Dado que acesso o site giulianaflores.com
+When digito a palavra "orquídea" na barra de pesquisa
+Then sou capaz de ver o nome, preço, foto e desconto do produto
+
+Exemplo 2:
+Dado que acesso o site giulianaflores.com
+When digito "chocolate" na barra de pesquisa
+Then consigo ver nome, foto, preço e desconto sobre o produto
+And sugestões de outros produtos relacionados a chocolate
+
+
+Exemplo 3:
+Dado que acessoo site giulianaflores.com
+When digito na barra dde pesquisa "capinha"
+Then o site me informa que não existe esse produto
+And me recomenda produtos que possam me interessar
 
 
